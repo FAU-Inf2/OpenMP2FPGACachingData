@@ -1,7 +1,7 @@
-#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
+#include <math.h>
 
 int linearize(int x, int y, int bndx, int bndy) {
   if (x >= bndx || y >= bndy)
